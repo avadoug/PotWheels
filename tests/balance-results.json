@@ -1,0 +1,50 @@
+[
+  {
+    "level": 1,
+    "strategy": "blind forward",
+    "wins": 58,
+    "attempts": 100,
+    "averageSeconds": 3.97,
+    "livesLost": 227
+  },
+  {
+    "level": 1,
+    "strategy": "time gaps",
+    "wins": 100,
+    "attempts": 100,
+    "averageSeconds": 5.52,
+    "livesLost": 0
+  },
+  {
+    "level": 3,
+    "strategy": "blind forward",
+    "wins": 43,
+    "attempts": 100,
+    "averageSeconds": 3.76,
+    "livesLost": 234
+  },
+  {
+    "level": 3,
+    "strategy": "time gaps",
+    "wins": 100,
+    "attempts": 100,
+    "averageSeconds": 5.87,
+    "livesLost": 0
+  },
+  {
+    "level": 7,
+    "strategy": "blind forward",
+    "wins": 36,
+    "attempts": 100,
+    "averageSeconds": 3.56,
+    "livesLost": 242
+  },
+  {
+    "level": 7,
+    "strategy": "time gaps",
+    "wins": 100,
+    "attempts": 100,
+    "averageSeconds": 5.19,
+    "livesLost": 0
+  }
+]

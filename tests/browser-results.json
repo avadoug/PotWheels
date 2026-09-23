@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "title and Chris artwork load",
+    "help and settings controls",
+    "arrows and WASD",
+    "moving traffic",
+    "pause freezes traffic and resume works",
+    "both strain pickups, keyboard and button activation",
+    "actual collision removes one life",
+    "respawn",
+    "crossing, scoring, victory screen, next stage",
+    "game-over, restart button and R",
+    "localStorage score and settings persistence",
+    "desktop laptop and tablet widths",
+    "mobile touch move, pause, resume and responsive width",
+    "direct file launch without a build or server",
+    "no fatal browser errors"
+  ],
+  "errors": []
+}

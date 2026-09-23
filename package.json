@@ -1,0 +1,6 @@
+{
+  "name": "pot-wheels", "version": "1.0.0", "private": true,
+  "description": "Pot Wheels: The Dispensary Run — an original browser arcade game",
+  "scripts": { "start": "node server.cjs", "test": "node --test tests/engine.test.cjs", "test:browser": "node tests/browser.cjs" },
+  "devDependencies": { "playwright": "^1.55.0" }
+}

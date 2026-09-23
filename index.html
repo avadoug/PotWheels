@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#111b17"><meta name="description" content="Chris has places to be. An original, free lane-crossing arcade game."><title>Pot Wheels — The Dispensary Run</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="shell">
+  <header class="masthead"><a class="brand" href="#" id="brand" aria-label="Pot Wheels main menu"><span class="brand-icon">PW</span><span>POT WHEELS<small>INDEPENDENT ARCADE CO.</small></span></a><div class="edition"><i></i> ONE MAN. TWO WHEELS. ZERO BAD FLOWER.</div><button id="sound" class="icon-button" aria-label="Mute sound">SOUND ON</button></header>
+  <main>
+    <div class="heading"><div><div class="eyebrow">A HIGH-STAKES COMMUTE</div><h1>The dispensary run<span>.</span></h1></div><div class="record">PERSONAL BEST<strong id="best">000000</strong></div></div>
+    <div class="layout">
+      <section class="cabinet" aria-label="Pot Wheels arcade game">
+        <div class="hud"><div>SCORE<strong id="score">000000</strong></div><div>RUN<strong id="level">01</strong></div><div>CHAIR HEALTH<strong id="lives" class="health">♥ ♥ ♥</strong></div><div>COMBO<strong id="combo">×1</strong></div><button id="pause" class="icon-button" aria-label="Pause game">Ⅱ</button></div>
+        <div class="game-viewport" id="viewport"><canvas id="game" width="900" height="720" tabindex="0" aria-label="Game board. Move with arrow keys or WASD. Space uses your strain power-up. P pauses."></canvas><div id="overlay" class="overlay"></div><div id="toast" class="toast" role="status" aria-live="polite"></div></div>
+        <div class="game-footer"><span><i></i><span id="stage">QUICK RUN</span></span><span id="status">The good stuff is across the street.</span><span class="key-hint">P <span>PAUSE</span></span></div>
+      </section>
+      <aside>
+        <section class="mission"><div class="eyebrow">THE MISSION / 001</div><h2>Protect<br>the terps.</h2><p>Get Chris to the Terp Temple.<br>Dodge traffic. Grab the good stuff.<br>Make questionable decisions.</p><div class="destination"><span>↗</span><div>THE TERP TEMPLE<small>OPEN UNTIL YOU GET HERE</small></div></div></section>
+        <section class="stash"><div class="section-label">STRAIN STASH <span id="stash-count">0 / 2</span></div><button id="ability" class="ability" disabled><span class="ability-icon">✦</span><span><strong id="ability-name">EMPTY POCKETS</strong><small id="ability-description">Find a strain jar on the road</small></span><kbd>SPACE</kbd></button><div id="effect" class="effect">No strain active</div><div class="strain-info"><span class="swatch taxi"></span><div><b>Dirty Taxi</b><small>Stops traffic. Your right of way.</small></div></div><div class="strain-info"><span class="swatch apollo"></span><div><b>Apollo 13</b><small>Cosmic shield. Five fearless seconds.</small></div></div><p class="micro">Arcade powers, lovingly named after your strains.</p></section>
+        <section class="controls"><div class="section-label">KNOW YOUR ROLL</div><div><span><kbd>↑</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd></span><small>MOVE / WASD</small></div><div><kbd>SPACE</kbd><small>USE STRAIN</small></div><p>Safe medians let you breathe.<br>Close calls build your combo.</p><button class="text-button" id="help">The field guide ↗</button></section>
+      </aside>
+    </div>
+    <div class="touch-controls" aria-label="Touch game controls"><div class="dpad"><button data-move="up" aria-label="Move up">▲</button><button data-move="left" aria-label="Move left">◀</button><button data-move="down" aria-label="Move down">▼</button><button data-move="right" aria-label="Move right">▶</button></div><button id="touch-power" class="power-touch">✦<small>USE STRAIN</small></button><button id="touch-pause" aria-label="Pause or resume game">Ⅱ</button></div>
+    <footer><span>GROWN WITH CARE. DRIVEN WITH QUESTIONABLE JUDGMENT.</span><button class="text-button" id="about">Meet the wheelman ↗</button><span>EST. 4:20</span></footer>
+  </main>
+</div>
+<script src="engine.js"></script><script src="game.js"></script>
+</body></html>
